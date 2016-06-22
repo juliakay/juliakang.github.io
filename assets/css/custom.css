@@ -1,0 +1,78 @@
+#title{
+	text-align: center; 
+	padding-top: 20px;
+	
+}
+
+h2 { color: black; 
+	font-family: "Great Vibes", cursive; 
+	font-size: 50px; 
+	line-height: 1; 
+	font-weight: normal; 
+	text-shadow: 0 3px 3px gray; }
+
+h1 { 
+	width: 50%;
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-size: 54px;
+	font-weight: 300;
+	margin: 0.7em auto;
+	text-align: center;
+	text-shadow: 0 1px 1px #fff;
+	font-style: bold;
+ }
+
+h4 { color: #4E5152; 
+	font-size: 25px; 
+	font-family: "Libre Baskerville", serif;  
+	text-shadow: 0 1px 1px #fff; 
+}
+
+/*create line before and after heading*/
+/*	h1:before, h1:after {
+	  content: "";
+	  display: inline-block;
+	  width: 50%;
+	  margin: 0 6px 0 -55%;
+	  vertical-align: middle;
+	  border-bottom: 1px solid;
+	}
+	h1:after{
+	  margin: 0 -55% 0 6px;
+	}
+
+	h4:before, h4:after {
+	  content: "";
+	  display: inline-block;
+	  width: 10%;
+	  margin: 0 .6px 0 -55%;
+	  vertical-align: middle;
+	  border-bottom: 1px solid;
+	}
+	h4:after{
+	  margin: 0 -55% 0 6px;
+	}
+
+*/
+span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#left{
+	float: left;
+	padding: 10px;
+	width: 35%;
+	padding-top: 15%;
+}
+
+#right{
+	float: left;
+	padding: 10px;
+	width: 65%;
+}
+
+h3{
+	text-align: center;
+}
