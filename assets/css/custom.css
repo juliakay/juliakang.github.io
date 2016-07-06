@@ -1,32 +1,61 @@
 #title{
 	text-align: center; 
 	padding-top: 20px;
-	
 }
 
-h2 { color: black; 
-	font-family: "Great Vibes", cursive; 
-	font-size: 50px; 
-	line-height: 1; 
-	font-weight: normal; 
-	text-shadow: 0 3px 3px gray; }
-
 h1 { 
-	width: 50%;
-	color: #000;
-	font-family: 'Lato', sans-serif;
-	font-size: 54px;
-	font-weight: 300;
-	margin: 0.7em auto;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 80px;
+	font-weight: 800;
+	margin: auto;
+	margin-top: 2em;
+	margin-bottom: .2em;
 	text-align: center;
 	text-shadow: 0 1px 1px #fff;
 	font-style: bold;
  }
 
-h4 { color: #4E5152; 
-	font-size: 25px; 
-	font-family: "Libre Baskerville", serif;  
-	text-shadow: 0 1px 1px #fff; 
+h2 { 
+	color: black ;
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+	font-weight: 800;
+	text-shadow: 0 1px 1px #fff;
+	font-style: bold;
+ }
+
+h3{
+	color: #000;
+	font-family: 'Raleway' cursive;
+	font-size: 24px;
+	font-weight: 100;
+	margin: auto;
+	margin-top: .4em;
+	text-align: center;
+	text-shadow: 0 1px 1px #fff;
+}
+
+.name{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 4em;
+	margin-bottom: 0px;
+}
+
+.bio{
+	font-family: 'Rouge Script', cursive;
+	margin-top: 0px;
+}
+
+#edu{
+	float: left;
+}
+
+#edu_pic{
+	width: 200px;
+}
+#career{
+	float: right;
 }
 
 /*create line before and after heading*/
@@ -55,10 +84,12 @@ h4 { color: #4E5152;
 	}
 
 */
-span {
+/*span {
   display: inline-block;
   vertical-align: middle;
-}
+}*/
+
+
 
 #left{
 	float: left;
@@ -73,6 +104,3 @@ span {
 	width: 65%;
 }
 
-h3{
-	text-align: center;
-}

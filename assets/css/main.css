@@ -1087,7 +1087,7 @@
 
 	#me .pic {
 		position: relative;
-		display: block;
+		/*display: block;*/
 	}
 
 		#me .pic:before {
