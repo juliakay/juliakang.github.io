@@ -36,15 +36,24 @@ h3{
 	text-shadow: 0 1px 1px #fff;
 }
 
-.name{
+#name{
+	position: absolute;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 4em;
+	font-size: 3em;
+	font-weight: 500;
 	margin-bottom: 0px;
+	color: white;
+	text-shadow: 0 3px 2px darkgray;
+	height: auto;
+	width: 200;
+
 }
 
-.bio{
+#bio{
 	font-family: 'Rouge Script', cursive;
 	margin-top: 0px;
+	color: grey;
+
 }
 
 #edu{
@@ -58,6 +67,56 @@ h3{
 	float: right;
 }
 
+#left{
+	float: left;
+	padding: 10px;
+	width: 35%;
+	padding-top: 15%;
+}
+
+#right{
+	float: left;
+	padding: 10px;
+	width: 65%;
+}
+
+#resume1 { 
+	color: black ;
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	font-weight: 800;
+	text-shadow: 0 1px 1px #fff;
+	font-style: bold;
+ }
+
+ #resume2{
+ 	font-style: italic;
+ }
+
+#hello{
+	text-align: center;
+}
+
+.image.circle{
+	display: block;
+	border-radius: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.image.half{
+	display: block;
+	width: 50%;
+}
+
+#laptop{
+	max-width: 500px;
+}
+
+#numbers{
+	/*display: block;*/
+	text-align: center;
+}
 /*create line before and after heading*/
 /*	h1:before, h1:after {
 	  content: "";
@@ -91,16 +150,4 @@ h3{
 
 
 
-#left{
-	float: left;
-	padding: 10px;
-	width: 35%;
-	padding-top: 15%;
-}
-
-#right{
-	float: left;
-	padding: 10px;
-	width: 65%;
-}
 

@@ -748,7 +748,7 @@
 /* Basic */
 
 	body {
-		background-image: url("images/overlay.png"), url("images/citrus.jpg");
+		background-image: url("images/overlay.png"), url("images/cbuildings.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		font-family: 'Source Sans Pro', sans-serif;

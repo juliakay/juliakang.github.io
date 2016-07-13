@@ -8,7 +8,7 @@
 -->
 <html>
 	<head>
-		<title>JULIA KANG | Coding and Design</title>
+		<title> JULIA KANG | Coding and Design</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -21,14 +21,14 @@
 	<body>
 
 	<div id = "title"> 
-		<span class="name"> JULIA KANG</span>
+		<div id="name"> JULIA KANG</div>
 		<header> </header>
-		<span class="bio"> Coding and Design </span>
+		<div id="bio"> Coding and Design </div>
 		</header>
 	</div>
 
 		<!-- Wrapper-->
-			<div id="wrapper">
+			<div id="wrapper" style="padding-top: 105px">
 
 				<!-- Nav -->
 					<nav id="nav">
@@ -57,45 +57,30 @@
 								<header>
 									<h2>Resume</h2>
 								</header>
-								<div id="left">
+								
+								<div class="row">
 									<div>
-										<h4> Education </h4>
-										<h6> B.S. in Computer Science</h6>
-										<p> Cornell University '19</p>
+										<div id="resume1"> Education </div>
+										<div id="resume2"> B.S. in Computer Science</div>
+										<div id="resume3"> Cornell University '19</div>
+									</div>	
+									<div>
+										<img src="images/cornell.jpg" class="image half fit">
 									</div>
-									<br>
+								</div>
+								
+								<div class="row">
 									<div>
 										<img src="images/BSD.jpg" class="image fit">
 									</div>
+									<div>
+										<div id="resume1"> Work </div>
+										<div id="resume2">Student Intern</div> 	
+										<div id="resume3"> BSD Code & Design Academy</div>
+									</div>
+								
 								</div>
 
-								<div id="right">
-									<div>
-										<img src="images/cornell.jpg" class="image fit">
-									</div>
-									<br>
-									<div>
-										<h4> Work </h4>
-										<h6> Student Intern</h6>
-										<p> BSD Code & Design Academy</p>
-									</div>
-									
-
-								<!-- </div>
-								<section>
-									<div class="row">
-										<div class="4u 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic_01.jpg" alt=""></a>
-										</div>
-										<div class="4u 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic_02.jpg" alt=""></a>
-										</div>
-										<div class="4u$ 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic_03.jpg" alt=""></a>
-										</div>
-									
-									</div>
-								</section> -->
 							</article>
 
 						<!-- Contact -->
@@ -103,19 +88,23 @@
 								<header>
 									<h2 id="hello">SAY HELLO!</h2>
 								</header>
+								<br>
 										<div>
-											<img src="images/pic_01.jpg" id="laptop" class="image circle">
+											<img src="images/pic_01.jpg" class="image circle fit" id="laptop">
 										</div>
-										<div class="phone">
-											<i class="icon fa-mobile-phone" style="font-size:3em auto;">  610-757-7410</i>
+								<br>
+								<br>		
+										<div id="numbers"> 
+											<div class="phone">
+												<i class="icon fa-mobile-phone" style="font-size: 2em auto;">  610-757-7410</i>
+											</div>
+											<div class="email">
+												<i class="icon fa-envelope-square" style="font-size: 4em auto;">  mx_kang@yahoo.com</i>
+											</div>
+											<div class="code">
+												<i class="icon fa-code" style="font-size: 4em auto;">  github.com/juliakay</i>
+											</div>
 										</div>
-										<div class="email">
-											<i class="icon fa-envelope-square" style="font-size: 3em auto;">  mx_kang@yahoo.com</i>
-										</div>
-										<div class="code">
-											<i class="icon fa-code" style="font-size: 3em auto;">  github.com/juliakay</i>
-										</div>
-
 <!-- 
 								<div id="right">
 									<form action="#" method="post">
@@ -165,6 +154,7 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/header.js"></script>
 
 	</body>
 </html>
