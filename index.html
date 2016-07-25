@@ -16,6 +16,10 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="stylesheet" href="assets/css/custom.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!-- 		lightbox link -->
+		<link rel="stylesheet" href="lightbox/lightbox.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="lightbox/lightbox.js"></script>
+
 
 	</head>
 	<body>
@@ -37,6 +41,7 @@
 						<a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
 						<a href="https://www.linkedin.com/in/julia-kang-7a42a6105" class="icon fa-linkedin" target="_blank"><span>LinkedIn</span></a>
 						<a href="http://codepen.io/jkang/" class="icon fa-codepen" target="_blank"><span>Codepen</span></a>
+						<a href="#travels" class="icon fa-globe"><span>Travels</span></a>
 					</nav>
 
 				<!-- Main -->
@@ -47,7 +52,7 @@
 								<!-- <header> -->
 									<h1> HI, IM JULIA.</h1>
 									<h3> Current student, future innovator</h3>
-								<a href="#work" class="jumplink pic">
+							<a href="#work" class="jumplink pic">
 									<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
 								</a>
 							</article>
@@ -65,7 +70,8 @@
 										<div id="resume3"> Cornell University '19</div>
 									</div>	
 									<div>
-										<img src="images/cornell.jpg" class="image half fit">
+
+										<a href="images/cornell.jpg" rel="lightbox" title="Lightbox"><img src="images/cornell_tb.jpg" class = "image fit"/></a>
 									</div>
 								</div>
 								
@@ -88,12 +94,12 @@
 								<header>
 									<h2 id="hello">SAY HELLO!</h2>
 								</header>
-								<br>
+											<br>
 										<div>
 											<img src="images/pic_01.jpg" class="image circle fit" id="laptop">
 										</div>
-								<br>
-								<br>		
+											<br>
+											<br>		
 										<div id="numbers"> 
 											<div class="phone">
 												<i class="icon fa-mobile-phone" style="font-size: 2em auto;">  610-757-7410</i>
@@ -105,6 +111,7 @@
 												<i class="icon fa-code" style="font-size: 4em auto;">  github.com/juliakay</i>
 											</div>
 										</div>
+							</article>
 <!-- 
 								<div id="right">
 									<form action="#" method="post">
@@ -129,11 +136,45 @@
 									</div>
 								</div>
 							</form>
-						</article>
+						
 
 					</div>
  -->
 
+							<!-- Travels -->
+							<article id="travels" class="panel">
+								<!-- <header> -->
+								<header>
+									<h2> Follow Me Around!</h2>
+								</header>
+									
+									<section>
+									<div class="row">
+										<div class="4u 12u$(mobile)">
+											<a href="images/pic_01.jpg" rel="lightbox" title=""><img src="images/pic_01.jpg" class = "image fit"/></a>
+										</div>
+										<div class="4u 12u$(mobile)">
+											<a href="images/pic_02.jpg" rel="lightbox" title=""><img src="images/pic_02.jpg" class = "image fit"/></a>
+										</div>
+										<div class="4u$ 12u$(mobile)">
+											<a href="images/pic_03.jpg" rel="lightbox" title=""><img src="images/pic_03.jpg" class = "image fit"/></a>
+										</div>
+										<div class="4u 12u$(mobile)">
+											<a href="images/pic04.jpg" rel="lightbox" title=""><img src="images/pic04.jpg" class = "image fit"/></a>
+										</div>
+										<div class="4u 12u$(mobile)">
+											<a href="images/pic05.jpg" rel="lightbox" title=""><img src="images/pic05.jpg" class = "image fit"/></a>
+										</div>
+										<div class="4u$ 12u$(mobile)">
+											<a href="images/pic06.jpg" rel="lightbox" title=""><img src="images/pic06.jpg" class = "image fit"/></a>
+					
+										</div>
+									</div>
+								</section>
+							</article>
+
+
+							</article>
 
 				<!-- Footer -->
 					<div id="footer">

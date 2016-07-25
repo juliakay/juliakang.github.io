@@ -35,17 +35,18 @@ h3{
 	text-align: center;
 	text-shadow: 0 1px 1px #fff;
 }
+#me{
+	background-image: url("images/base.jpg");
+}
 
 #name{
-	position: absolute;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 3em;
 	font-weight: 500;
-	margin-bottom: 0px;
 	color: white;
 	text-shadow: 0 3px 2px darkgray;
 	height: auto;
-	width: 200;
+	text-align: center;
 
 }
 

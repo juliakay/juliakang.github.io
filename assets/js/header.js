@@ -20,8 +20,8 @@ function showAllOfTheContent()
 
 function fillObjectArray()
 {
-	var titleDiv = document.getElementById("name");
-	var titleX = windowWidth/2 - 180; //position div from half width of the page
+	// var titleDiv = document.getElementById("name");
+	var titleX = windowWidth/2 - 185; //position div from half width of the page
 	var titleY = 15;
 	var titleFactor = 0.01; //parallax shift factor, the bigger the value, the more it shift for parallax movement
 	var titleArray = new Array();
@@ -32,7 +32,7 @@ function fillObjectArray()
 // Main function to retrieve mouse x-y pos.s
 
 function getMouseXY(e)
-{
+{    
 	 //  if (IE) { // grab the x-y pos.s if browser is IE
 		// tempX = event.clientX + document.body.scrollLeft
 		// tempY = event.clientY + document.body.scrollTop
@@ -58,7 +58,6 @@ function moveDiv(tempX)
 
 				// console.log("left" + objectArray[i][0].style.left);
 			}
-
 
 }
 
