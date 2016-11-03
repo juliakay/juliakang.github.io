@@ -83,7 +83,7 @@
 						}
 						
 						else{
-							$wrapper.css('padding-top', Math.min(((($window.height() - panels[firstPanelId].height()) / 2) - $nav.height()), 6) + 'px');
+							$wrapper.css('padding-top', Math.min(((($window.height() - panels[firstPanelId].height()) / 2) - $nav.height()), 80) + 'px');
 
 						}
 
